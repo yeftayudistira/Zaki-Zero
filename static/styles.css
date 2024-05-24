@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel, .right-panel {
+    padding: 20px;
+    width: 50%;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.right-panel {
+    border-left: 1px solid #ddd;
+}
+
+.result-header {
+    margin-bottom: 20px;
+}
+
+.result-content {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.classification {
+    font-size: 48px;
+    font-weight: bold;
+}

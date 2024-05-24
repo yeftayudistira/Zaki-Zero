@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Classification Result</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <textarea id="input-text" rows="10" placeholder="Paste or type text here..."></textarea>
+            <button id="scan-button">Scan</button>
+            <button id="upload-button">Upload file</button>
+            <input type="file" id="file-input" style="display: none;">
+        </div>
+        <div class="right-panel">
+            <div class="result-header">
+                <h2>RESULT</h2>
+            </div>
+            <div class="result-content">
+                <div class="classification">
+                    <span id="classification-result">Unknown</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
